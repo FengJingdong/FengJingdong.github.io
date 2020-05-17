@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FengJingdong的主页</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper default-version">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+        <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
+        <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <!--Nav Outer-->
+            <div class="nav-outer clearfix">
+                <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <!-- Main Menu -->
+                <nav class="main-menu">
+                    <div class="navbar-header">
+                        <!-- Toggle Button -->      
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div class="navbar-collapse collapse scroll-nav clearfix">
+                        <ul class="navigation clearfix">
+                       
+                            <li class="current"><a href="#home">主页</a></li>
+                            <li><a href="#about">关于</a></li>
+                            <li><a href="#resume">简历</a></li>
+                            <li><a href="#services">能力</a></li>
+                            <li><a href="#work">工作经验</a></li>
+                            <li><a href="#blog">博客</a></li>
+                            <li><a href="#contact">更多内容</a></li>
+                         </ul>
+                    </div>
+                </nav>
+                <!-- Main Menu End-->                        
+            </div>
+            <!--Nav Outer End-->            
+        </div>
+    </div>
+ 	
+    <div class="card-outer">
+        <div class="scroll-box">
+            <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+                <div class="card-wrapper">
+                    <div class="author-info" style="background-image:url(images/background/3.jpg)">
+                        <div class="image"><img src="images/resource/user.png" alt=""></div>
+                        <div class="author">
+                            <h3>FengJingdong</h3>
+                            <div class="designation">
+                                我是一名
+                                <div class="typing-title">
+                                    <p> <strong>java开发者</strong></p>
+                                    <p> <strong>大数据技术爱好者</strong></p>
+                                    <p> <strong>前端工程师</strong></p>
+                                </div>
+                                <span class="typed-title"></span>
+                            </div>
+                        </div>
+                        <div class="link-btn">
+                            <a href="http://sc.chinaz.com/" class="theme-btn btn-style-one">我的博客</a>
+                        </div>
+                    </div>
+                    <div class="card-inner-box">
+                        <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                            <ul class="main-menu">
+                                <li class="active home"><a class="logo" href="#home"><img src="images/logo.png" alt=""></a></li>
+                                <li><a href="#about"><i class="flaticon-social"></i>关于</a></li>
+                                <li><a href="#resume"><i class="flaticon-curriculum"></i>简历</a></li>
+                                <li><a href="#services"><i class="flaticon-layers-1"></i>能力</a></li>
+                                <li><a href="#work"><i class="flaticon-tools"></i>工作经验</a></li>
+                                <li><a href="#blog"><i class="flaticon-blog"></i>博客</a></li>
+                                <li><a href="#contact"><i class="flaticon-send-mail"></i>更多内容</a></li>
+                            </ul>
+                        </header>
+
+                        <!-- card item -->
+                        <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
+
+                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                                <div class="image"><img src="images/resource/user.png" alt=""></div>
+                                <div class="author">
+                                    <h3>FengJingdong</h3>
+                                    <div class="designation">
+                                        我是一名
+                                        <div class="typing-title">
+                                            <p> <strong>java开发者</strong></p>
+                                            <p> <strong>大数据技术爱好者</strong></p>
+                                            <p> <strong>前端工程师</strong></p>
+                                        </div>
+                                        <span class="typed-title"></span>
+                                    </div>
+                                </div>
+                                <div class="text">好好学习，好好生活</div>
+                                <div class="link-btn">
+                                    <a href="#" class="theme-btn btn-style-one">我的博客</a>
+                                    <a href="#" class="theme-btn btn-style-two">了解更多</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- end item -->
+
+                        <!-- card item -->
+                        <div class="card-about card-item" id="about" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">关于我</h4>
+                                <div class="text">做人不要太攀比，踏踏实实做自己</div>
+                                <div class="info-list">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>姓名:</strong>  FengJingdong</li>
+                                                <li><strong>电话:</strong>  137****4181</li>
+                                                <li><strong>地址:</strong>  中国，广东</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="list-style-one">
+                                                <li><strong>Email:</strong>  1366149008@qq.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                                <h4 class="title">技能</h4>
+                                <div class="row">
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#9147ff" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="45">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="45" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>Java</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#ff5e7e" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="25">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="25" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>大数据&云原生开发</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#ffc713" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="10">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="10" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>DevOps|CICD</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- About Block -->
+                                    <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                                        <div class="inner-box">
+                                            <div class="graph-outer">
+                                                <input type="text" class="dial" data-fgColor="#51dbc3" data-bgColor="#f5f5f5" data-width="90" data-height="90" data-linecap="normal"  value="20">
+                                                <div class="inner-text count-box"><span class="count-text" data-stop="20" data-speed="2000"></span>%</div>
+                                            </div>
+                                            <h3>前端技术 </h3>
+                                        </div>
+                                    </div>
+                                </div><strong></strong>
+                                        
+                            </div>
+                        </div>
+                        <!-- end item -->
+<strong></strong>
+                        <!-- card item -->
+                        <div class="card-resume card-item" id="resume" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">简历</h4>
+                                <div class="row clearfix">
+                                    <!--Column-->
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-book"></span></div></div></div> <h2>个人信息</h2></div>
+                                            
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>学历</h4>
+                                                    <div class="date"><span>2017-2021</span></div>
+                                                    <div class="text">全日制普通本科</div>
+                                                </div>
+                                            </div>
+											<div class="timeline-block">
+											    <div class="inner-box">
+											        <h4>能力概况</h4>
+											        <div class="date"><span>2017-目前</span>&nbsp; 擅长java，其他技术略有领悟</div>
+											        <div class="text">平时做项目以java为主，python也使用较多，近期scala使用频率较低，其他语言node.js，
+													php只能依赖框架做项目，使用频率较少。对云计算与大数据，机器学习与深度学习技能有一定的使用，前端技术略微薄弱，更多详情请看能力模块介绍</div>
+											    </div>
+											</div>
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4>项目经验</h4>
+                                                    <div class="date"><span>2019-2020</span> 与同学一起接外包项目</div>
+                                                    <div class="text">项目关于后台管理系统，企业OA系统与扩展(数据分析，关联企业微信)，小程序C2C应用(涉及微信公众号关联，微信支付) </div>
+                                                </div>
+                                            </div>
+											
+											
+
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <!--Column-->
+                                    <div class="timeline-column col-md-6 col-sm-12 col-xs-12">
+                                        <div class="inner">
+                                            <div class="col-header"><div class="icon-box"><div class="icon-inner"><div class="icon"><span class="flaticon-case"></span></div></div></div> <h2>最近技术关注</h2></div>
+                                            
+                                            <!--Timeline Block-->
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4></h4>
+                                                    <div class="date"><span>Spark</span></div>
+                                                    <div class="text"> </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4></h4>
+                                                    <div class="date"><span>Spring Cloud</span></div>
+                                                    <div class="text"> </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timeline-block">
+                                                <div class="inner-box">
+                                                    <h4></h4>
+                                                    <div class="date"><span>redis</span></div>
+                                                    <div class="text">
+													 </div>
+                                                </div>
+                                            </div>
+											
+											<div class="timeline-block">
+											    <div class="inner-box">
+											        <h4></h4>
+											        <div class="date"><span>微信开放平台开发，支付宝开发平台开发</span> </div>
+											        <div class="text">
+													 </div>
+											    </div>
+											</div>
+											
+											<div class="timeline-block">
+											    <div class="inner-box">
+											        <h4></h4>
+											        <div class="date"><span>Elastic技术栈</span> </div>
+											        <div class="text"> </div>
+											    </div>
+											</div>
+											
+											
+
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-services card-item" id="services" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">我的能力</h4>
+                                <div class="row">
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
+                                            <h4><a href="blog-single.html">java se/ee</a></h4>
+                                            <div class="text">在早期先掌握javase/ee的基本使用，对知识有一定掌握后开始学习java8源码与各版本之间的新特性，
+													已学习过常用集合，juc部分核心源码，学习jvm基础调优与GC算法，目前对线上项目的并发调优有一定心得 </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-folder"></span></div>
+                                            <h4><a href="blog-single.html">数据库</a></h4>
+                                            <div class="text">关系型数据库(mysql,oracle) NOSQL(MongoDB,redis) </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-computer"></span></div>
+                                            <h4><a href="blog-single.html">缓存</a></h4>
+                                            <div class="text">理解缓存雪崩，缓存击穿，缓存穿透，能为此根据项目的规模提供解决方案;
+													熟悉redis5种主要的数据结构与其他redis常用的数据结构，熟悉使用Spring Data Redis，可以使用redis实现
+													数据对象/session缓存，热搜排行榜，文章读取，查找可能认识的朋友，查找共同好友，最近地点显示等常用的功能</div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
+                                            <h4><a href="blog-single.html">搜索引擎</a></h4>
+                                            <div class="text">solr，ElasticSearch </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-web-design"></span></div>
+                                            <h4><a href="blog-single.html">消息队列</a></h4>
+                                            <div class="text">Kafka，RabbitMQ，RocketMQ，(redis) </div>
+                                        </div> 
+                                    </div>
+                                    <div class="services-block col-md-6">
+                                        <div class="inner-box">
+                                            <div class="icon-box"><span class="icon flaticon-photo-camera"></span></div>
+                                            <h4><a href="blog-single.html">微信，支付宝相关第三方开发</a></h4>
+                                            <div class="text">能够做微信小程序，微信公众号，微信开发平台，企业微信的应用开发，能做网页支付宝支付相关开发 </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-projects card-item" id="work" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">工作经验</h4>
+                                <div class="row">
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/1.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/1.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">Portfolio Item Title</a></h3>
+                                                <span>Branding, Print</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/2.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/2.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">Portfolio Item Title</a></h3>
+                                                <span>Branding, Print</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/3.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/3.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">Portfolio Item Title</a></h3>
+                                                <span>Branding, Print</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-md-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/4.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/4.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">Portfolio Item Title</a></h3>
+                                                <span>Branding, Print</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-sm-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/5.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/5.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">Portfolio Item Title</a></h3>
+                                                <span>Branding, Print</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="projects-block col-sm-6">
+                                        <div class="inner-box">
+                                            <figure class="image">
+                                                <img src="images/gallery/6.jpg" alt="image">
+                                                <div class="overlay">
+                                                    <a class="lightbox-image option-btn" title="Image Caption Here" data-fancybox-group="example-gallery" href="images/gallery/6.jpg">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>                                
+                                                </div>
+                                            </figure>
+                                            <div class="caption-title">
+                                                <h3><a href="#">Portfolio Item Title</a></h3>
+                                                <span>Branding, Print</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-blog card-item" id="blog" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h4 class="title">我的博客</h4>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/blog-1.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>01</strong> <br>Sep</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">Let’s Talk About Design</a></h4>
+                                            <div class="post-meta">by admin  /  <span>Design</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/blog-2.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>02</strong> <br>Sep</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">Let’s Talk About Design</a></h4>
+                                            <div class="post-meta">by admin  /  <span>Design</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block">
+                                    <div class="inner-box">
+                                        <div class="image">
+                                            <img src="images/resource/blog-3.jpg" alt="">
+                                            <div class="overlay">
+                                                <a class="link-btn" href="blog-single.html">
+                                                    <i class="fa fa-link"></i>
+                                                </a>                                
+                                            </div>
+                                        </div>
+                                        <div class="date"><strong>03</strong> <br>Sep</div>
+                                        <div class="lower-content">
+                                            <h4><a href="blog-single.html">Let’s Talk About Design</a></h4>
+                                            <div class="post-meta">by admin  /  <span>Design</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end item -->
+                        <!-- card item -->
+                        <div class="card-contact card-item" id="contact" style="background-image:url(images/background/2.jpg)">
+                            <div class="card-inner">
+                                <h3 class="title">Contact</h3>
+                                <h4>Keep In Touch</h4>
+                                <div class="row clearfix">
+                                    <div class="col-md-6">
+                                        <ul class="list-style-two">
+                                            <li><span class="icon flaticon-signs"></span>Dongguan University of Technology <br> No. 1, University Road, Songshan Lake District, Dongguan , Guangdong ,China </li>
+                                            <li><span class="icon flaticon-smartphone"></span>137****4181</li>
+                                            <li><span class="icon flaticon-note-1"></span>1366149008@qq.com</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="map-section">
+                                            <div class="home-google-map">
+                                                <div 
+                                                    class="google-map" 
+                                                    id="contact-google-map" 
+                                                    data-map-lat="40.700843" 
+                                                    data-map-lng="-74.004012" 
+                                                    data-icon-path="images/icons/map-marker.png"
+                                                    data-map-title="Chester"
+                                                    data-map-zoom="11" >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                       
+                            </div>
+                        </div>
+                        <!-- end item -->
+
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+            
+    </div>
+
+</div>
+<!--End pagewrapper-->
+
+
+<script src="js/jquery.js"></script> 
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/mousemoveparallax.js"></script>
+<script src="js/pagenav.js"></script>
+<script src="js/jquery-type.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/particle-alone.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
